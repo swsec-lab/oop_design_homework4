@@ -1,10 +1,11 @@
 #pragma once
 
 #include "student.h"
+const int MAX_STUDENTS = 100;
 
 class StudentManager {
 private:
-    Student students[100];
+    Student students[MAX_STUDENTS];
     int num_of_students;
     static int last_student_id;
     

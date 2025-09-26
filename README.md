@@ -76,8 +76,9 @@
 ---
 
 ## 🧠 생각해보기
-- `StudentManager` 클래스에서 `last_student_id`를 사용하여 학생 ID를 자동으로 생성하는 방식의 장점은 무엇일까요?
+- `StudentManager` 클래스에서 `last_student_id`를 사용하여 학생 ID를 자동으로 생성하는 방식의 장/단점은 무엇인가요? 개선한다면 어떻게 디자인 해보겠나요?
 - `Student::updateRecord` 함수에서 학생 ID를 입력받을 필요가 있을까요? 그 이유는 무엇인가요? 
+- `StudentManager`에서 students 변수를 배열로 선언했을 때의 단점은 무엇인가요? 어떻게 개선할 수 있을까요?
 
 
 ## 🧪 테스트 방법
