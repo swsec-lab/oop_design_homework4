@@ -132,9 +132,24 @@ void doTest3(StudentManager& manager) {
 }
 
 
-int main() {
+int main(int argc, char **argv) {
     StudentManager manager;
     fillSampleData(manager);
+
+    if(argc == 2){
+        int select = atoi(argv[1]);
+        switch(select){
+            case 1:
+                doTest1(manager);
+                return 0;
+            case 2:
+                doTest2(manager);
+                return 0;
+            case 3:
+                doTest3(manager);
+                return 0;
+        }
+    }
 
     doTest1(manager);
     doTest2(manager);
