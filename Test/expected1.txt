@@ -4,7 +4,7 @@ Best Student:
 Name: Jack, ID: 1036
 Midterm Average: 82.318
 Final Average: 78.908
-Total Average: 78.908
+Total Average: 161.226
 Student List:
 Name: Alice, ID: 1001
 Name: Bob, ID: 1002
